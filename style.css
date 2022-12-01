@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+            /*hearder/ menu*/
+
+header {
+    width: 100%;
+    height: 100vh;
+   background: url(./img/infinite-loop-01.jpg);
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+}
+
+.menu h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.menu ul {
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+    margin-top: 10px;
+    padding:15px 30px;
+    cursor: pointer;
+    transition: .8s;
+}
+.menu li:hover {
+    background-color: #6666bb;
+}
+.menu img {
+    display: none;
+}
+
+.parallax div{
+    text-align: center;
+    
+   margin:300px auto 0 auto;
+    color: white;
+    width: 400px;
+}
+.parallax h1 {
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+.parallax p {
+    font-size: 20px;
+}
+
+        /*Main */
+
+.fazemos {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.fazemos h1 {
+    padding: 80px 0px 40px 22px;
+    font-size: 42px;
+    font-family: 'Raleway', sans-serif;
+    color: #6666bb;
+
+}
+.fazemos h2 {
+    font-size: 30px;
+    color: #6666bb;
+    padding: 30px 0px 30px 40px;
+}
+.fazemos p {
+    margin: 0 auto;
+    width: 95%;
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    padding: 0px 0px 30px 40px;
+    line-height: 40px;
+}
+
+#marketTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#marketTop1 {
+    width: 48%;
+}
+#marketTop2{
+    width: 48%;
+}
+
+#marketTop a{
+    text-decoration: none;
+    color: white;
+    padding: 18px 35px;
+    background-color: #6666bb;
+    margin: 10px 0px 30px 100px;
+    border-radius: 10px;
+}
+
+
+    /*Testimonials*/
+
+.Testimonials {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 92vh;
+    background: url(./img/infinite-loop-02.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+.Testimonials h1 {
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.Testimonials p {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+
+section.depoimentos {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    margin: 0 13%;
+}
+
+section.depoimentos > h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider{
+    overflow:hidden;
+    padding:40px 0;   
+}
+
+.container-slider-single{
+    float: left;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+
+.container-slider-single p{
+    margin:15px 0;
+    color:#ebebeb;
+    font-size: 14px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
+.depoimentos img {
+    border-radius: 50%;
+}
+
+        /*botoes*/
+.slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
+
+
+
+
+
+.gallery {
+    width: 100%;
+    height: 90vh;
+}
+.gallery h1 {
+    font-size: 45px;
+    margin-top: 120px;
+    color: #6666bb;
+}
+.gallery p {
+    color: #4b4b4b;
+}
+
+
+
+
+div.galeria{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    margin: 0 13%;
+}
+
+div.galeria > h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider2{
+    overflow:hidden;
+    padding:40px 0;   
+}
+
+.container-slider-single2{
+    float: left;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+
+.container-slider-single2 p{
+    margin:15px 0;
+    color:#ebebeb;
+    font-size: 14px;
+}
+
+.slick-slide2 {
+    margin-left:27px;
+
+  }
+.galeria img {
+    width: 250px;
+}
+
+
+        /*Footer/ CONTATO*/
+
+.cnt {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/infinite-loop-03.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    line-height: 35px;
+}
+.cnt h1 {
+font-size: 45px;
+}
+.cnt p {
+    font-size: 20px;
+}
+
+
+        /*Formulario*/
+
+.formulario{
+    display: flex; 
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+.inputs {
+    margin-top: 50px;
+    color: white;
+}
+#nome, #email {
+    color: white;
+    width:28vw;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#mensagem {
+    color: white;
+    width:28vw;
+    height: 250px;
+    padding-bottom: 210px;
+    font-size: 22px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.inputs button {
+    background-color: #6666bb;
+    color: white;
+    font-size: 20px;
+    padding: 12px 50px;
+    border: none;
+    cursor: pointer;
+}
+.inputs button:hover {
+    background-color: #9393f5;
+    
+}
+
+
+.chat {
+    width: 45%;
+    text-align: left;
+}
+.chat .h21 {
+    margin-top: 50px;
+}
+.chat h2 {
+    padding-bottom: 40px;
+
+}

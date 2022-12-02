@@ -26,6 +26,9 @@ header {
     color: white;
 }
 
+nav.ativo {
+    background-color: #6666bb;
+}
 .menu h2 {
     margin-top: 20px;
     font-size: 24px;
@@ -68,7 +71,7 @@ header {
 .fazemos {
     width: 80%;
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
 }
 
 .fazemos h1 {
@@ -86,6 +89,7 @@ header {
 .fazemos p {
     margin: 0 auto;
     width: 95%;
+    height: auto;
     font-size: 20px;
     color: rgb(150, 150, 150);
     padding: 0px 0px 30px 40px;

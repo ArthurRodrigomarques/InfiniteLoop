@@ -2,9 +2,7 @@
     .menu {
         justify-content: space-between;
     }
-    .menu h2 {
-        margin-left: 25px;
-    }
+    
     .menu img {
         display: block;
         width: 45px;
@@ -17,8 +15,20 @@
         display: none;
     }
 
+    .parallax div{
+        width: 90%;
+    }
+    .parallax h1 {
+        font-size: 55px;
+        padding-bottom: 15px;
+    }
+    .parallax p {
+        font-size: 20px;
+    }
+
+    
     .fazemos {
-        width: 80%;
+        width:100%;
         margin: 0 auto;
         height: auto;
         margin-bottom: 60px;
@@ -33,5 +43,47 @@
     #marketTop2{
         width: 95%;
     }
+    .Testimonials {
+        height: auto;
+
+    }
+
+
+    .gallery {
+        width: 100%;
+        height: auto;
+    }
+    .gallery h1 {
+        font-size: 45px;
+        margin-top: 120px;
+        color: #6666bb;
+    }
+    .gallery p {
+        margin: 0 auto;
+        width: 80%;
+        color: white;
+    }
+
+
+    .formulario{
+        display: block;
+        width: 100%;
+    }.inputs {
+        width: 100%;
+    }
+
+    #nome, #email {
+        color: white;
+        width:80%;
+    }
     
+    #mensagem {
+        width:80%; 
+    }
+    .chat {
+        display: none;
+    }
+    div {
+        width: 100%;
+    }
 }

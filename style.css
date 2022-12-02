@@ -96,6 +96,7 @@ nav.ativo {
     line-height: 40px;
 }
 
+
 #marketTop {
     display: flex;
     justify-content: space-between;
@@ -121,6 +122,7 @@ nav.ativo {
     /*Testimonials*/
 
 .Testimonials {
+    margin-top: 50px;
     text-align: center;
     color: white;
     width: 100%;

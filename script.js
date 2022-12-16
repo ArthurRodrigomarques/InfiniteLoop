@@ -45,6 +45,9 @@ $('.container-slider').slick({
                         slidesToScroll: 1
                       }
                     }],
+
+                    
+                    
         });
 
 

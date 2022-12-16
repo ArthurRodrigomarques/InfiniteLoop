@@ -20,6 +20,7 @@ header {
 }
 
 .menu {
+  position: fixed;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
